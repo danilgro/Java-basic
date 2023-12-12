@@ -17,7 +17,7 @@ public class Calculator {
     }
 
     public static void division(int a, int b) {
-        int result = a / b;
+        double result = a / b;
         print(result);
     }
 
@@ -27,7 +27,7 @@ public class Calculator {
     }
 
     public static void division(long a, long b) {
-        long result = a / b;
+        double result = a / b;
         print(result);
     }
 
