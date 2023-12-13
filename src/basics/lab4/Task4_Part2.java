@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Task4_Part2 {
     public static void main(String[] args) {
-        //  sortArray();           // Упражнение №1
-        //  printArray();          // Упражнение №2
-        //  changeElementArray();  // Упражнение №3
-        //  uniqueElementArray();  // Упражнение №4
+        //  sortArray();            // Упражнение №1
+        //  printArray();           // Упражнение №2
+        //  changeElementArray();   // Упражнение №3
+        //  uniqueElementArray();   // Упражнение №4
     }
 
     public static void sortArray() {
