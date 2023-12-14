@@ -8,6 +8,7 @@ public class Task4_Part2 {
         //  printArray();           // Упражнение №2
         //  changeElementArray();   // Упражнение №3
         //  uniqueElementArray();   // Упражнение №4
+
     }
 
     public static void sortArray() {
