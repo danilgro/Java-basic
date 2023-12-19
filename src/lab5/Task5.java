@@ -15,8 +15,8 @@ public class Task5 {
         */
 
         // seekSubString("OLDNEWOLDOLDafasdOLDNEW", "NEW");  // Упражнение №4
-        // invertWord("This is a test string");  // Упражнение №5  вариант №1
-        // System.out.println(invertWordVariant2("This is a test string"));  // Упражнение №5  вариант №2
+        // invertWord("This is a test string");   // Упражнение №5  вариант №1
+        // System.out.println(invertWordVariant2("This is a test string"));   // Упражнение №5  вариант №2
     }
 
     public static void seekLongestWord(String str) {
