@@ -14,6 +14,11 @@ public class MobilePhone extends Phone {
     }
 
     @Override
+    public String getAgeUser() {
+        return nameUser;
+    }
+
+    @Override
     public String getNameUser() {
         return super.getNameUser();
     }
@@ -23,5 +28,8 @@ public class MobilePhone extends Phone {
         super.setNameUser(nameUser);
     }
 
-
+    public void getInfo() {
+        System.out.print("Пользователь: " + getNameUser() + " обладает телефоном марки " + this.brand +
+                "\nВозраст пользователя: " + super.getAgeUser() + " лет");
+    }
 }

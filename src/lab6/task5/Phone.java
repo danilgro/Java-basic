@@ -1,5 +1,7 @@
 package lab6.task5;
 
+import java.util.Scanner;
+
 public abstract class Phone {
     int weight;
     int length;
@@ -15,8 +17,16 @@ public abstract class Phone {
         this.color = color;
     }
 
-    public int getAgeUser() {
-        return ageUser;
+    public String getAgeUser() {
+        return Integer.toString(ageUser);
+    }
+
+    public void entryUserData() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите имя пользователя: ");
+        setNameUser(scanner.nextLine());
+        System.out.print("Введите возраст пользователя: ");
+        setAgeUser(scanner.nextInt());
     }
 
     public void setAgeUser(int ageUser) {
@@ -30,4 +40,5 @@ public abstract class Phone {
     public void setNameUser(String nameUser) {
         this.nameUser = nameUser;
     }
+
 }
